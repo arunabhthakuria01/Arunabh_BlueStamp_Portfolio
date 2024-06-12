@@ -66,7 +66,11 @@ For your first milestone, describe what your project is and how you plan to buil
 - What your plan is to complete your project -->
 <!--- Anything between these symbols will not render on the published site -->
 
-Here is my starter project. It is an arduino board with a proto shield on top of it. This proto shield lets me wire several components on top of it and connect them to the arduino pins. On the proto shield, I have a button and two LEDs which turn on if the button is pressed. My main challenge with this project was soldering on the pins to the proto shield, since the pins needed to perfectly align with the arduino.
+Here is my starter project. It is an arduino board with a proto shield on top of it as well as a breadboard on the side. This proto shield allows me to wire several components on top of the arduino. I also used a breadboard to wire a button to the arduino. I have wired two LEDs onto the proto shield, and they are both controlled by the button. I coded them such that the red LED only turns on while the button is pressed, and the green LED is turned on and off whenever the button gets pressed.
+
+One of the biggest challenges I faced was with getting the button to work. I originally wanted to have the button soldered onto the proto shield, but after testing code with this setup, I found out that it was not a stable input source. After doing a little bit of research into wiring buttons, I learned that I needed a constant power source and resistor at the ground source, and so I made the decision to switch to wiring the button on my breadboard instead.
+
+My starter taught me several basics of arduino code, such as how to initalize inputs and outputs, and I also learned how to use a breadboard. It also helped me refine my soldering skills, and I have become much more precise with soldering smaller wires together.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
