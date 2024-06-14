@@ -73,7 +73,7 @@ My starter taught me several basics of arduino code, such as how to initalize in
 | Proto Shield for Arduino | Allows for soldering of several components, and also provides custom space for buttons, LEDs, and capacitors that come with the shield. It also has extensions of several arduino ports.| $9.95 | <a href="https://www.adafruit.com/product/2077"> Link </a> |
 
 # Starter Code
-
+```c++
 int buttonPin = 13;
 int redLedPin = 8;
 int greenLedPin = 9;
@@ -116,7 +116,7 @@ void loop() {
     }
   }
 }
-
+```
 
 <!---# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
