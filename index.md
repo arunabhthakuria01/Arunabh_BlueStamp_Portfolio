@@ -68,9 +68,55 @@ My starter taught me several basics of arduino code, such as how to initalize in
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Arduino UNO | Deploys the code and provides power to all components | $25 ish | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino UNO | Deploys the code and provides power to all components | $15.19 | <a href="https://www.elegoo.com/products/elegoo-uno-r3-board"> Link </a> |
+| Breadboard | Allows for free wiring of buttons, sensors, and other components | $6.75 | <a href="https://www.amazon.com/BB400-Solderless-Plug-BreadBoard-tie-points/dp/B0040Z1ERO"> Link </a> |
+| Proto Shield for Arduino | Allows for soldering of several components, and also provides custome space for buttons, LEDs, and capacitors. It also has extensions of several arduino ports.| $9.95 | <a href="https://www.adafruit.com/product/2077"> Link </a> |
+
+# Starter Code
+
+int buttonPin = 13;
+int redLedPin = 8;
+int greenLedPin = 9;
+int buttonState = 0;
+int buttonStore = 0;
+int pressed = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(redLedPin, OUTPUT);
+  pinMode(greenLedPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  buttonState = digitalRead(buttonPin);
+  if(buttonState == HIGH){
+    digitalWrite(redLedPin, HIGH);
+    if(pressed == 0){
+      pressed = 1;
+      if(buttonStore == 0){
+        buttonStore = 1;
+      }
+      else{
+        buttonStore = 0;
+      }
+    }
+  }
+  else{
+    digitalWrite(redLedPin, LOW);
+    if(pressed == 1){
+      pressed = 0;
+      if(buttonStore == 0){
+        digitalWrite(greenLedPin, LOW);
+      }
+      else{
+        digitalWrite(greenLedPin, HIGH);
+      }
+    }
+  }
+}
+
 
 <!---# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
