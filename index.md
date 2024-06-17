@@ -64,7 +64,7 @@ One of the biggest challenges I faced was with getting the button to work. I ori
 
 My starter taught me several basics of arduino code, such as how to initalize inputs and outputs, and I also learned how to use a breadboard. It also helped me refine my soldering skills, and I have become much more precise with soldering smaller wires together.
 
-# Starter Bill of Materials
+## Starter Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -72,7 +72,7 @@ My starter taught me several basics of arduino code, such as how to initalize in
 | Breadboard | Allows for free wiring of buttons, sensors, and other components | $6.75 | <a href="https://www.amazon.com/BB400-Solderless-Plug-BreadBoard-tie-points/dp/B0040Z1ERO"> Link </a> |
 | Proto Shield for Arduino | Allows for soldering of several components, and also provides custom space for buttons, LEDs, and capacitors that come with the shield. It also has extensions of several arduino ports.| $9.95 | <a href="https://www.adafruit.com/product/2077"> Link </a> |
 
-# Starter Code
+## Starter Code
 ```c++
 int buttonPin = 13;
 int redLedPin = 8;
