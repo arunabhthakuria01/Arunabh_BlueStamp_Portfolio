@@ -27,11 +27,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BjwcGSSZ8Yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone
+For my second milestone, I finished assembling the rest of the legs of the hexapod. I was able to accomplish this rather quickly because I had assembled the parts of all six legs while working towards getting to my first milestone. This made it so that I only needed to screw together the componenets of each leg for them to be mechanically finished. However, the wires of the 18 servos on the robot were quite messy and would touch the floor, and so I used the provided cable tidy to keep the wires together and take up less space. 
+
+After this, I calibrated the servos. This was a process where I moved each legtip to a specific spot marked on a callibration paper, and the positions of the servos were saved onto the robot controller. This ensured that every time the robot started up, it would be able to start at a fixed position. With the hexapod callibrated, I moved on to testing it with the functions in the Processing app. The robot was able to walk, turn, move up and down, and perform several other functions. 
+
+Now that I'm done with my second milestone, I will work on getting to my third. This involves getting the robot to perform all of these functions with the controller.
 
 # First Milestone
 
