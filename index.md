@@ -31,7 +31,7 @@ For my second milestone, I finished assembling the rest of the legs of the hexap
 
 After this, I calibrated the servos. This was a process where I moved each legtip to a specific spot marked on a callibration paper, and the positions of the servos were saved onto the robot controller. This ensured that every time the robot started up, it would be able to start at a fixed position. With the hexapod callibrated, I moved on to testing it with the functions in the Processing app. The robot was able to walk, turn, move up and down, and perform several other functions. 
 
-Now that I'm done with my second milestone, I will work on getting to my third. This involves getting the robot to perform all of these functions with the controller.
+Now that I'm done with my second milestone, I will work on getting to my third. This involves getting the robot to perform all of these functions with the controller, and I also want to add a mount to the top of the robot for the battery to sit on.
 
 # First Milestone
 
