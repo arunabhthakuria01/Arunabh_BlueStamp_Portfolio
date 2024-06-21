@@ -7,7 +7,7 @@
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](logo.svg)-->
   
 # Final Milestone
 
@@ -19,9 +19,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE-->
-
-
+- What you hope to learn in the future after everything you've learned at BSE
 
 # Second Milestone
 
@@ -50,6 +48,7 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 | Hexapod | What the item is used for | $126.95 | <a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/"> Link </a> |
 | Camera | What the item is used for | $25.99 | <a href="https://www.amazon.com/Arducam-Module-Megapixels-Arduino-Mega2560/dp/B012UXNDOY"> Link </a> |
 | Bluetooth module | What the item is used for | $10.99 | <a href="https://www.amazon.com/DSD-TECH-Bluetooth-iBeacon-Arduino/dp/B06WGZB2N4/"> Link </a> |
+| Arduino Mega 2560 | What the item is used for | $48.90 | <a href="https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067/dp/B0046AMGW0/"> Link </a> |
 
 # Starter Project - Arduino
 
