@@ -45,7 +45,6 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 |:--:|:--:|:--:|:--:|
 | Hexapod | What the item is used for | $126.95 | <a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/"> Link </a> |
 | Camera | What the item is used for | $25.99 | <a href="https://www.amazon.com/Arducam-Module-Megapixels-Arduino-Mega2560/dp/B012UXNDOY"> Link </a> |
-| Bluetooth module | What the item is used for | $10.99 | <a href="https://www.amazon.com/DSD-TECH-Bluetooth-iBeacon-Arduino/dp/B06WGZB2N4/"> Link </a> |
 | Arduino Mega 2560 | What the item is used for | $48.90 | <a href="https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067/dp/B0046AMGW0/"> Link </a> |
 
 # Starter Project - Arduino
