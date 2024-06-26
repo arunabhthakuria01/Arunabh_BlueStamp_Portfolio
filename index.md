@@ -9,7 +9,7 @@
 
 ![Headstone Image](logo.svg)-->
   
-# Final Milestone
+# Third Milestone - 6/21/2024
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gnmgMjtF2iM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -19,7 +19,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-# Second Milestone
+# Second Milestone - 6/18/2024
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BjwcGSSZ8Yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -29,7 +29,7 @@ After this, I calibrated the servos. This was a process where I moved each legti
 
 Now that I'm done with my second milestone, I will work on getting to my third. This involves getting the robot to perform all of these functions with the controller, and I also want to add a mount to the top of the robot for the battery to sit on.
 
-# First Milestone
+# First Milestone - 6/17/2024
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CvkdEz7TmwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -47,7 +47,7 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 | Camera | What the item is used for | $25.99 | <a href="https://www.amazon.com/Arducam-Module-Megapixels-Arduino-Mega2560/dp/B012UXNDOY"> Link </a> |
 | Arduino Mega 2560 | What the item is used for | $48.90 | <a href="https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067/dp/B0046AMGW0/"> Link </a> |
 
-# Starter Project - Arduino
+# Starter Project: Arduino - 6/12/2024
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/97nzk2poyUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
