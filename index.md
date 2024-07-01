@@ -109,7 +109,7 @@ void loop() {
 }
 ```
 
-##Starter Schematics
+## Starter Schematics
 
 ![Starter Schematics](starter_schematics.png)
 
