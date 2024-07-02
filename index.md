@@ -45,6 +45,12 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 | Camera | What the item is used for | $25.99 | <a href="https://www.amazon.com/Arducam-Module-Megapixels-Arduino-Mega2560/dp/B012UXNDOY"> Link </a> |
 | Arduino Mega 2560 | What the item is used for | $48.90 | <a href="https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067/dp/B0046AMGW0/"> Link </a> |
 
+# Schematics 
+
+![Robot Schematics](Product.png)
+
+![Controller Schematics](Remote.png)
+
 # Starter Project: Arduino - 6/12/2024
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/97nzk2poyUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
