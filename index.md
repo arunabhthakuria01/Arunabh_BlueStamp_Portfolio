@@ -119,7 +119,7 @@ void loop() {
 ## Starter Schematics
 
 ![Starter Schematics](starter_schematics.png)
-<span style="font-size:0.5em;">Figure 1. Wiring diagram of the aruduino's LEDs and buttons. Although the LEDs are actually mounted on top of the proto shield, they are on the breadboard instead to show the wired connections in the circuitry.</span>
+<span style="font-size:0.8em;">Figure 1. Wiring diagram of the aruduino's LEDs and buttons. Although the LEDs are actually mounted on top of the proto shield, they are on the breadboard instead to show the wired connections in the circuitry.</span>
 
 <!---# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
