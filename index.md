@@ -57,6 +57,12 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 ![Controller Schematics](Remote.png)
 <span style="font-size:0.8em;">Figure 2. 3D render of the robot's controller. This is the wireless controller that controls the robot's movement.</span>
 
+![Battery Mount Schematics](batter_mount_schematic.png)
+<span style="font-size:0.8em;">Figure 3. 3D render of the mount that the battery and the camera motor go on.</span>
+
+![Camera Mount Schematics](camera_mount_schematic.png)
+<span style="font-size:0.8em;">Figure 4. 3D render of the mount that the camera sits on.</span>
+
 # Starter Project: Arduino - 6/12/2024
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/97nzk2poyUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
