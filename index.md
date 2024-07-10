@@ -48,6 +48,77 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 | LED Strip | Purely for aesthetic purposes, it goes through the colors of the rainbow | $22.99 | <a href="https://www.amazon.com/LOAMLIN-WS2812B-Individually-Addressable-Waterproof/dp/B0956JQ68N/"> Link </a> |
 | PWM Wires | These wires are used to connect the arduino to the LEDs and camera, and the robot controller to the additional servo | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Link </a> |
 
+# Code
+## Hexapod Code
+### one of the files
+
+## Arduino LED Code
+<pre style="background:#fdfdfd; border:none; height:25pc">
+  #include <FastLED.h>
+  #define NUM_LEDS 7
+  #define DATA_PIN1 10
+  #define DATA_PIN2 11
+  
+  int r[NUM_LEDS];
+  int g[NUM_LEDS];
+  int b[NUM_LEDS];
+  int state[NUM_LEDS];
+  CRGB leds[NUM_LEDS];
+  CRGB leds2[NUM_LEDS];
+
+  void setup() {
+    // put your setup code here, to run once:
+    FastLED.addLeds<NEOPIXEL, DATA_PIN1>(leds, NUM_LEDS);
+    FastLED.addLeds<NEOPIXEL, DATA_PIN2>(leds, NUM_LEDS);
+    
+    pinMode(9, OUTPUT);
+
+    for(int i = 0; i < NUM_LEDS; i++){ //initialize LED color values
+      r[i] = 255 - 15*i;
+      g[i] = 15*i;
+      b[i] = 0;
+      state[i] = 0;
+      //state values:
+      //0 = red to green
+      //1 = green to blue
+      //2 = blue to red
+    }
+  }
+  
+  void loop() {
+    for(int i = 0; i < NUM_LEDS; i++){
+      if(r[i] == 255){
+        state[i] = 0;
+      }
+      else if(g[i] == 255){
+        state[i] = 1;
+      }
+      else if(b[i] == 255){
+        state[i] = 2;
+      }
+
+      switch(state[i]){ //changes LED color based on state
+        case 0:
+           r[i]--;
+          g[i]++;
+          break;
+        case 1:
+          g[i]--;
+          b[i]++;
+          break;
+        case 2:
+          b[i]--;
+          r[i]++;
+          break;
+      }
+      leds[i].setRGB(r[i], g[i], b[i]);
+      leds2[i].setRGB(r[i], g[i], b[i]);
+    }
+    FastLED.show();
+    digitalWrite(9, HIGH);
+    delay(10);
+  }
+</pre>
 
 # Schematics 
 
