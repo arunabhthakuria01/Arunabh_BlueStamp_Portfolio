@@ -52,15 +52,19 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 # Schematics 
 
 ![Robot Schematics](Product.png)
+
 <span style="font-size:0.8em;">Figure 1. 3D render of the base hexapod robot's mechanical parts without any modifications.</span>
 
 ![Controller Schematics](Remote.png)
+
 <span style="font-size:0.8em;">Figure 2. 3D render of the robot's controller. This is the wireless controller that controls the robot's movement.</span>
 
 ![Battery Mount Schematics](batter_mount_schematic.png)
+
 <span style="font-size:0.8em;">Figure 3. 3D render of the mount that the battery and the camera motor go on.</span>
 
 ![Camera Mount Schematics](camera_mount_schematic.png)
+
 <span style="font-size:0.8em;">Figure 4. 3D render of the mount that the camera sits on.</span>
 
 # Starter Project: Arduino - 6/12/2024
@@ -128,6 +132,7 @@ void loop() {
 ## Starter Schematics
 
 ![Starter Schematics](starter_schematics.png)
+
 <span style="font-size:0.8em;">Figure 1. Wiring diagram of the aruduino's LEDs and buttons. Although the LEDs are actually mounted on top of the proto shield, they are on the breadboard instead to show the wired connections in the circuitry.</span>
 
 <!---# Schematics 
