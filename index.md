@@ -54,17 +54,17 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 
 ## Arduino LED Code
 ```c++
-  #include <FastLED.h>
-  #define NUM_LEDS 7
-  #define DATA_PIN1 10
-  #define DATA_PIN2 11
-  
-  int r[NUM_LEDS];
-  int g[NUM_LEDS];
-  int b[NUM_LEDS];
-  int state[NUM_LEDS];
-  CRGB leds[NUM_LEDS];
-  CRGB leds2[NUM_LEDS];
+#include <FastLED.h>
+#define NUM_LEDS 7
+#define DATA_PIN1 10
+#define DATA_PIN2 11
+
+int r[NUM_LEDS];
+int g[NUM_LEDS];
+int b[NUM_LEDS];
+int state[NUM_LEDS];
+CRGB leds[NUM_LEDS];
+CRGB leds2[NUM_LEDS];
 
 void setup() {
  // put your setup code here, to run once:
