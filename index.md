@@ -51,6 +51,7 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 # Code
 ## Camera Pivot Code
 ### Turn the joystick values into commands to move the camera
+This snippet of code is a part of the Update() method in the FNHRRemote.cpp file. This runs only when all three switches are on, and the conditions inside this check to see if the joystick Y (vertical) value is 200 values away from the center. If so, it will add a number to the end of the fr24OutData array that tells the robot to move the camera up or down depending on the joystick's value. If the Y value is not, then it will instead send a value that tells the hexapod to do nothing. 
 ```c++
 else{ //all 3 are on
   if(joystickYValue < 312){
@@ -65,6 +66,7 @@ else{ //all 3 are on
 }
 ```
 ### Calls the method to move camera based on commands
+This bit of code is in the UpdateBlockedOrder() method in FNHRComm.cpp. This method handles the array of orders sent to the robot, calling the methods that execute movement of the hexapod. Both conditions call the method that moves the camera, but sends a different parameter that tells the servo to spin in one direction or the other.
 ```c++
 else if (blockedOrder == Orders::requestMoveCamUp){
   //Serial.println("Up");
@@ -78,6 +80,7 @@ else if (blockedOrder == Orders::requestMoveCamDown){
 }
 ```
 ### Code to move the servos
+This snippet is inside FNHRBasic.cpp, which contains all the methods that move the hexapod. I have created this method that moves the camera's pivot servo, either up or down depending on the parameter passed in.
 ```c++
 boolean servoInitialized = false;
 Servo pivotServo;
@@ -104,6 +107,7 @@ void RobotAction::MoveCam(boolean direction){ //MOD -- Pivots Camera
 ```
 
 ## Arduino LED Code
+This is a part of the code that is on the arduino. This code makes the two sets of LEDS on the hexapod turn on, and both sets are in sync and look like a moving rainbow.
 ```c++
 #include <FastLED.h>
 #define NUM_LEDS 7
