@@ -49,8 +49,59 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 | PWM Wires | These wires are used to connect the arduino to the LEDs and camera, and the robot controller to the additional servo | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Link </a> |
 
 # Code
-## Hexapod Code
-### one of the files
+## Camera Pivot Code
+### Turn the joystick values into commands to move the camera
+```c++
+else{ //all 3 are on
+  if(joystickYValue < 312){
+    rf24OutData[rf24OutDataCounter++] = Orders::requestMoveCamUp;
+  }
+  else if(joystickYValue > 712){
+    rf24OutData[rf24OutDataCounter++] = Orders::requestMoveCamDown;
+  }
+  else{
+    rf24OutData[rf24OutDataCounter++] = Orders::requestEcho;
+  }
+}
+```
+### Calls the method to move camera based on commands
+```c++
+else if (blockedOrder == Orders::requestMoveCamUp){
+  //Serial.println("Up");
+  SaveRobotBootState(Robot::State::Boot);
+  robotAction.MoveCam(true);
+}
+else if (blockedOrder == Orders::requestMoveCamDown){
+  //Serial.println("Down");
+  SaveRobotBootState(Robot::State::Boot);
+  robotAction.MoveCam(false);
+}
+```
+### Code to move the servos
+```c++
+boolean servoInitialized = false;
+Servo pivotServo;
+int servoVal;
+
+void RobotAction::MoveCam(boolean direction){ //MOD -- Pivots Camera
+	if(!servoInitialized){
+		pivotServo.attach(2);
+		pivotServo.write(90);
+		servoInitialized = true;
+		//Serial.println("Servo initialized");
+	}
+	
+	if(direction && servoVal < 180){
+		servoVal+=2;
+	}
+	else if(!direction && servoVal > 0){
+		servoVal-=2;
+	}
+	if(servoVal > 0 && servoVal < 180){
+		pivotServo.write(servoVal);
+	}
+}
+```
 
 ## Arduino LED Code
 ```c++
