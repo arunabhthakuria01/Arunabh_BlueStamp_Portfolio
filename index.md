@@ -138,6 +138,10 @@ void loop() {
 
 <span style="font-size:0.8em;">Figure 4. 3D render of the mount that the camera sits on.</span>
 
+![Arduino Wiring Schematics](Arduino_schematics.png)
+
+<span style="font-size:0.8em;">Figure 5. Wiring schematics of the camera and LEDs that are connected to the arduino MEGA.</span>
+
 # Starter Project: Arduino - 6/12/2024
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/97nzk2poyUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
