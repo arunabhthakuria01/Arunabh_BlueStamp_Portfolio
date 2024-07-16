@@ -48,6 +48,7 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 | LED Strip | Purely for aesthetic purposes, it goes through the colors of the rainbow | $22.99 | <a href="https://www.amazon.com/LOAMLIN-WS2812B-Individually-Addressable-Waterproof/dp/B0956JQ68N/"> Link </a> |
 | PWM Wires | These wires are used to connect the arduino to the LEDs and camera, and the robot controller to the additional servo | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Link </a> |
 | 9 Volt Batteries | These batteries power both the arduino and the controller | $9.87 | <a href="https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S/"> Link </a> |
+| 7.2 Volt 3000 mAh Battery | This is the power source for the hexapod | $52.99 | <a href="https://www.amazon.com/Tenergy-3000mAh-Battery-Charger-Airplanes/dp/B09QRQPSF8"> Link </a> |
 | 9 Volt Battery Connector | This connects the battery to the Arduino MEGA's barrel jack port | $6.99 | <a href="https://www.amazon.com/Chanzon-Battery-2-1x5-5mm-Connector-Leather/dp/B083QFNY1G/"> Link </a> |
 
 # Code
