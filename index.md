@@ -128,8 +128,6 @@ void setup() {
  // put your setup code here, to run once:
  FastLED.addLeds<NEOPIXEL, DATA_PIN1>(leds, NUM_LEDS);
  FastLED.addLeds<NEOPIXEL, DATA_PIN2>(leds, NUM_LEDS);
- 
- pinMode(9, OUTPUT);
 
  for(int i = 0; i < NUM_LEDS; i++){ //initialize LED color values
     r[i] = 255 - 15*i;
@@ -173,7 +171,6 @@ void loop() {
       leds2[i].setRGB(r[i], g[i], b[i]);
  }
  FastLED.show();
- digitalWrite(9, HIGH);
  delay(10);
 }
 ```
