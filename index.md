@@ -44,9 +44,11 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 |:--:|:--:|:--:|:--:|
 | Hexapod | This is the main kit for the base project, containing both the robot and its controller | $126.95 | <a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/"> Link </a> |
 | Camera | Used to take photos from the view of the hexapod robot | $25.99 | <a href="https://www.amazon.com/Arducam-Module-Megapixels-Arduino-Mega2560/dp/B012UXNDOY"> Link </a> |
-| Arduino Mega 2560 | The computer that controlls the camer and LEDs | $48.90 | <a href="https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067/dp/B0046AMGW0/"> Link </a> |
+| Arduino Mega 2560 | This is the computer that controlls the camera and LEDs | $48.90 | <a href="https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067/dp/B0046AMGW0/"> Link </a> |
 | LED Strip | Purely for aesthetic purposes, it goes through the colors of the rainbow | $22.99 | <a href="https://www.amazon.com/LOAMLIN-WS2812B-Individually-Addressable-Waterproof/dp/B0956JQ68N/"> Link </a> |
 | PWM Wires | These wires are used to connect the arduino to the LEDs and camera, and the robot controller to the additional servo | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Link </a> |
+| 9 Volt Batteries | These batteries power both the arduino and the controller | $9.87 | <a href="https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S/"> Link </a> |
+| 9 Volt Battery Connector | This connects the battery to the Arduino MEGA's barrel jack port | $6.99 | <a href="https://www.amazon.com/Chanzon-Battery-2-1x5-5mm-Connector-Leather/dp/B083QFNY1G/"> Link </a> |
 
 # Code
 ## Camera Pivot Code
