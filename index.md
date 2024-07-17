@@ -50,7 +50,8 @@ My plan now is to continue assembling the legs of the robot. Once they are assem
 | 9 Volt Batteries | These batteries power both the arduino and the controller | $9.87 | <a href="https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S/"> Link </a> |
 | 7.2 Volt 3000 mAh Rechargable Battery | This is the power source for the hexapod | $52.99 | <a href="https://www.amazon.com/Tenergy-3000mAh-Battery-Charger-Airplanes/dp/B09QRQPSF8"> Link </a> |
 | 9 Volt Battery Connector | This connects the battery to the Arduino MEGA's barrel jack port | $6.99 | <a href="https://www.amazon.com/Chanzon-Battery-2-1x5-5mm-Connector-Leather/dp/B083QFNY1G/"> Link </a> |
-| Googly Eyes | They sit at the front of the hexapod | $4.99 <a href ="https://www.amazon.com/DECORA-Pieces-Wiggle-Googly-Self-Adhesive/dp/B01LWIYJH3/"> Link </a> |
+| Googly Eyes | They sit at the front of the hexapod | $4.99 | <a href ="https://www.amazon.com/DECORA-Pieces-Wiggle-Googly-Self-Adhesive/dp/B01LWIYJH3/"> Link </a> |
+| 3D Printer Filament | This is the material that the battery and camera mounts are made of | $35.24 | <a href ="https://www.amazon.com/SUNLU-High-Speed-Filament-Mini/dp/B0CR13MHJV/"> Link </a> |
 
 # Code
 ## Camera Pivot Code
