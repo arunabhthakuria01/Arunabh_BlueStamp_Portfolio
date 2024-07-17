@@ -1,4 +1,4 @@
-# Hexapod
+# Optic Hexapod
 My project is a six-legged robot that can crawl, turn, move its body in place, and perform various other complex actions. It is controlled wirelessly by a remote controller which toggles its various modes. Aside from being built from acryllic parts, the hexapod also has custom 3D printed parts that allow it to safely carry its battery, and is also equipped with a camera capable of taking photos at various angles. It also has two sets of rainbow LEDs that make the robot look bright in the dark.
 <!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!-->
 
@@ -6,9 +6,7 @@ My project is a six-legged robot that can crawl, turn, move its body in place, a
 |:--:|:--:|:--:|:--:|
 | Arunabh T | Monta Vista High School | Aerospace Engineering | Incoming Senior |
 
-<!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)-->
+![Headstone Image](WIN_20240717_14_23_14_Pro.jpg)
   
 # Third Milestone - 6/21/2024
 
