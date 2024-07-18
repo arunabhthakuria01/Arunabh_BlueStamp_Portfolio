@@ -190,7 +190,7 @@ void loop() {
 
 <span style="font-size:0.8em;">Figure 3. 3D render of the mount that the battery and the camera motor go on.</span>
 
-![Camera Mount Schematics](camera_mount_schematic.png)
+![Camera Mount Schematics](Camera_mount_updated.png)
 
 <span style="font-size:0.8em;">Figure 4. 3D render of the mount that the camera sits on.</span>
 
