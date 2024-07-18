@@ -186,7 +186,7 @@ void loop() {
 
 <span style="font-size:0.8em;">Figure 2. 3D render of the robot's controller. This is the wireless controller that controls the robot's movement.</span>
 
-![Battery Mount Schematics](battery_mount_updated.png)
+![Battery Mount Schematics](Battery_mount_updated.png)
 
 <span style="font-size:0.8em;">Figure 3. 3D render of the mount that the battery and the camera motor go on.</span>
 
