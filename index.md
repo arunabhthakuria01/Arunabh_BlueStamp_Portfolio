@@ -16,6 +16,10 @@ My third milestone involved creating the controller for the hexapod and getting 
 
 I have also completed my first modification to my robot, which was adding a battery mount to the hexapod. I decided to make this because with the current situation, there was no safe space for the battery to sit on without falling off. I CADed this in Onshape, and decided to use two of the holes on the top as the places for the mount ot be inserted. While working on this, I learned that my current design for it would not work well since the legs at the bottom of my design would cause the whole 3D print to turn out badly. In order to prevent this, I made the legs a separate file and included holes in the box that the battery would sit in for the legs to insert into. After having these things 3D printed, I tested them, and luckily they fit together quite well, with the exception of the corners of the legs needing to be filed down. I still plan on changing this for the future because the legs are not long enough to allow me to put any wires onto the extra pins that the robot controller provides, and I also may change this to accomodate additional modifications. Now that my base project is completely finished, I will start modifying the robot, and the first one in mind for me is adding a camera to the hexapod.
 
+![Battery Mount Schematics](Battery_mount_updated.png)
+
+<span style="font-size:0.8em;">Figure 1. 3D render of the mount that the battery and the camera motor go on.</span>
+
 # Second Milestone - 6/18/2024
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BjwcGSSZ8Yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -180,15 +184,11 @@ void loop() {
 
 ![Robot Schematics](Product.png)
 
-<span style="font-size:0.8em;">Figure 1. 3D render of the base hexapod robot's mechanical parts without any modifications.</span>
+<span style="font-size:0.8em;">Figure 2. 3D render of the base hexapod robot's mechanical parts without any modifications.</span>
 
 ![Controller Schematics](Remote.png)
 
-<span style="font-size:0.8em;">Figure 2. 3D render of the robot's controller. This is the wireless controller that controls the robot's movement.</span>
-
-![Battery Mount Schematics](Battery_mount_updated.png)
-
-<span style="font-size:0.8em;">Figure 3. 3D render of the mount that the battery and the camera motor go on.</span>
+<span style="font-size:0.8em;">Figure 3. 3D render of the robot's controller. This is the wireless controller that controls the robot's movement.</span>
 
 ![Camera Mount Schematics](Camera_mount_updated.png)
 
@@ -264,7 +264,7 @@ void loop() {
 
 ![Starter Schematics](starter_schematics.png)
 
-<span style="font-size:0.8em;">Figure 1. Wiring diagram of the aruduino's LEDs and buttons. Although the LEDs are actually mounted on top of the proto shield, they are on the breadboard instead to show the wired connections in the circuitry.</span>
+<span style="font-size:0.8em;">Figure 6. Wiring diagram of the aruduino's LEDs and buttons. Although the LEDs are actually mounted on top of the proto shield, they are on the breadboard instead to show the wired connections in the circuitry.</span>
 
 <!---# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
