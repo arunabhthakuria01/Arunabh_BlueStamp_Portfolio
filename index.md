@@ -194,7 +194,7 @@ void loop() {
 
 <span style="font-size:0.8em;">Figure 4. 3D render of the mount that the camera sits on.</span>
 
-![Arduino Wiring Schematics](Arduino_schematics.png)
+![Arduino Wiring Schematics](Arduino_schematics.xcf)
 
 <span style="font-size:0.8em;">Figure 5. Wiring schematics of the camera and LEDs that are connected to the arduino MEGA.</span>
 
