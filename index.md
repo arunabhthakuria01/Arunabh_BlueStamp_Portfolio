@@ -7,6 +7,30 @@ My project is a six-legged robot that can crawl, turn, move its body in place, a
 | Arunabh T | Monta Vista High School | Aerospace Engineering | Incoming Senior |
 
 ![Headstone Image](WIN_20240717_14_23_14_Pro.jpg)
+
+# Modification Milestone - 7/16/2024
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_P8wjQJ6cfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Finally, I am done with the modifications for my hexapod! My first modification was to add a camera, and have it capable of moving. The first step I took to doing this was getting a second arduino out, since the extra pins that the Robot Controller provides are not enough for the eight wires that the camera needs to operate. I also chose an Arduino MEGA to put on my hexapod since my original plan was to transfer the camera's images via bluetooth, and it would not be possible to just use an UNO for that. Getting the camera itself to work was rather simple once I figured out the camera's MEGA wiring, so it was then time to make the camera move. 
+
+For this part of the modification, I decided to use the spare servo that the hexapod kit came with for this, and once I had it wired, I had to figure out how to make it move in response to the controller. In order to do this, I needed to go into the robot's .cpp files and change the code they gave me. There were several files that I needed to modify, and I needed to look through hundreds, if not, thousands of lines of code to figure out how I could add the additional servo. After three days of reading and writing code, I was able to build a command-based system for the extra servo, which you can see in the section under code. I then proceeded to modify the battery mount in order to fit the Arduino MEGA and have the servo screw in, which is pictured below.
+
+![Battery Mount Schematics](Battery_mount_updated.png)
+
+<span style="font-size:0.8em;">Figure 1. 3D render of the mount that the battery and the camera motor go on.</span>
+
+I also created a mount that allowed the camera to be screwed into the servo's disc servo arm.
+
+![Camera Mount Schematics](Camera_mount_updated.png)
+
+<span style="font-size:0.8em;">Figure 2. 3D render of the mount that the camera sits on.</span>
+
+After this, I put everything together and began brainstorming ideas on how to get the camera onto my computer. I realized that the Bluetooth module plan would not work out, since Bluetooth can only transfer 512B of data at a time, making it impossible to upload an entire PNG. Instead, I decdied to use an app that, whenever connected to the computer, would allow me to take photos and see them on my computer. I still had a week left at BlueStamp at this point, so I looked into another modification I could add: LED lights.
+
+I encountered another challenge when adding these, since I actually did not have enough 5 volt pins on the Arudino MEGA to power the two strips I wanted to add. In order to solve this, I used a proto board and soldered three wires together to provide those LED strips power from just one pin. After this, I also realized that the LEDs were not getting enough power anyway since the 5 volts that came in from the Robot Controller got reduced to below 4 when going to the LEDs, so I changed the MEGA's power supply from the controller to an additional 9 volt battery that I hot glued onto the back of the hexapod. I then coded these LEDs to go through the colors of the rainbow, which wasn't very easy but after a few tries I got that to work properly as well.
+
+There were many takeaways from my experience here at BlueStamp, from learning how to code in C++ and using CAD to design objects to later 3D print. However, I think the biggest thing that I learned is to approach a problem from various angles rather than just one, since that way, I will have a much better chance of figuring out a way forward. In the future, I plan on using the knowledge that I gained in Arduino IDE and CAD software to create projects for my own convenience, and I am also looking forward to using some of the skills that I gained here in my robotics team and other future ventures.
   
 # Third Milestone - 6/21/2024
 
@@ -15,10 +39,6 @@ My project is a six-legged robot that can crawl, turn, move its body in place, a
 My third milestone involved creating the controller for the hexapod and getting it to work with the hexapod robot. The controller consists of a board that resembles an Arduino UNO, a shield that goes on top of it with several buttons, potentiometers, switches, and a single joystick. All of these serve a function in moving the robot in some way. Depending on which buttons or switches are activated, the hexapod has different functions. For instance, if only the first switch is on, the hexapod uses the joystick's values to crawl in different directions without rotating. However, when both the first and second swithces are turned on, the robot will crawl, with the addition of turning when sideways inputs are read. The hexapod also makes use of the potentiometers to adjust its height, and this function is on regardless of which switches have been turned on. The controller is powered by a 9V battery which is attached to the rest of a controller through an acryllic plate. It is wireless, and so it communicates with the robot through a wireless module that is on pins on top of the shield. The robot has an identical module that receives these signals and moves the robot.
 
 I have also completed my first modification to my robot, which was adding a battery mount to the hexapod. I decided to make this because with the current situation, there was no safe space for the battery to sit on without falling off. I CADed this in Onshape, and decided to use two of the holes on the top as the places for the mount ot be inserted. While working on this, I learned that my current design for it would not work well since the legs at the bottom of my design would cause the whole 3D print to turn out badly. In order to prevent this, I made the legs a separate file and included holes in the box that the battery would sit in for the legs to insert into. After having these things 3D printed, I tested them, and luckily they fit together quite well, with the exception of the corners of the legs needing to be filed down. I still plan on changing this for the future because the legs are not long enough to allow me to put any wires onto the extra pins that the robot controller provides, and I also may change this to accomodate additional modifications. Now that my base project is completely finished, I will start modifying the robot, and the first one in mind for me is adding a camera to the hexapod.
-
-![Battery Mount Schematics](Battery_mount_updated.png)
-
-<span style="font-size:0.8em;">Figure 1. 3D render of the mount that the battery and the camera motor go on.</span>
 
 # Second Milestone - 6/18/2024
 
@@ -184,15 +204,11 @@ void loop() {
 
 ![Robot Schematics](Product.png)
 
-<span style="font-size:0.8em;">Figure 2. 3D render of the base hexapod robot's mechanical parts without any modifications.</span>
+<span style="font-size:0.8em;">Figure 3. 3D render of the base hexapod robot's mechanical parts without any modifications.</span>
 
 ![Controller Schematics](Remote.png)
 
-<span style="font-size:0.8em;">Figure 3. 3D render of the robot's controller. This is the wireless controller that controls the robot's movement.</span>
-
-![Camera Mount Schematics](Camera_mount_updated.png)
-
-<span style="font-size:0.8em;">Figure 4. 3D render of the mount that the camera sits on.</span>
+<span style="font-size:0.8em;">Figure 4. 3D render of the robot's controller. This is the wireless controller that controls the robot's movement.</span>
 
 ![Arduino Wiring Schematics](Arduino_schematics.png)
 
