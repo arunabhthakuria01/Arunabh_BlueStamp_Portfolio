@@ -221,7 +221,7 @@ void loop() {
 
 # Project Resources and Help
 
-| Terry W. | |
+| Terry W. | <a href="https://www.linkedin.com/in/terry-wang-16b7bb177/"> Link </a> |
 
 # Starter Project: Arduino - 6/12/2024
 
@@ -239,7 +239,7 @@ My starter taught me several basics of arduino code, such as how to initalize in
 |:--:|:--:|:--:|:--:|
 | Arduino UNO | Deploys the code and provides power to all components | $15.19 | <a href="https://www.elegoo.com/products/elegoo-uno-r3-board"> Link </a> |
 | Breadboard | Allows for free wiring of buttons, sensors, and other components | $6.75 | <a href="https://www.amazon.com/BB400-Solderless-Plug-BreadBoard-tie-points/dp/B0040Z1ERO"> Link </a> |
-| Proto Shield for Arduino | Allows for soldering of several components, and also provides custom space for buttons, LEDs, and capacitors that come with the shield. It also has extensions of several arduino ports.| $9.95 | <a href="https://www.adafruit.com/product/2077"> Link </a> 
+| Proto Shield for Arduino | Allows for soldering of several components, and also provides custom space for buttons, LEDs, and capacitors that come with the shield. It also has extensions of several arduino ports.| $9.95 | <a href="https://www.adafruit.com/product/2077"> Link </a> |
 
 ## Starter Code
 ```c++
