@@ -221,6 +221,7 @@ void loop() {
 
 # Project Resources and Help
 | **Name or Source** | **Description and Link** |
+|:--:|:--:|:--:|:--:|
 | Terry W. | <a href="https://www.linkedin.com/in/terry-wang-16b7bb177/"> Instructor </a> |
 | Benjamin L. | <a href="https://www.linkedin.com/in/benjamin-liebmann-136bab274/"> Instructor </a> |
 | Abir B. | <a href="https://www.linkedin.com/in/abir-bhatt-5082a4239/"> Instructor </a> |
