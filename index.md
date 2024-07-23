@@ -220,8 +220,14 @@ void loop() {
 <span style="font-size:0.8em;">Figure 5. Wiring schematics of the camera and LEDs that are connected to the arduino MEGA.</span>
 
 # Project Resources and Help
-| **Name** | Note | Link |
-| Terry W. | Instructor who helped on the project | <a href="https://www.linkedin.com/in/terry-wang-16b7bb177/"> Link </a> |
+| **Name or Source** | **Description and Link** |
+| Terry W. | <a href="https://www.linkedin.com/in/terry-wang-16b7bb177/"> Instructor </a> |
+| Benjamin L. | <a href="https://www.linkedin.com/in/benjamin-liebmann-136bab274/"> Instructor </a> |
+| Abir B. | <a href="https://www.linkedin.com/in/abir-bhatt-5082a4239/"> Instructor </a> |
+| Saira B. | <a href="https://www.linkedin.com/in/saira-billah-63905a230/"> Instructor </a> |
+| Arduino Forums | <a href="https://forum.arduino.cc/"> Helped troubleshoot several errors </a> |
+| ArduCAM Github | <a href="https://github.com/ArduCAM/Arduino/tree/master/ArduCAM"> Provided all code as well as the app needed for the camera </a> |
+| Freenove Hexapod Github | <a href="https://github.com/Freenove/Freenove_Hexapod_Robot_Kit"> Provided all the code and instructions for the Hexapod </a> |
 
 # Starter Project: Arduino - 6/12/2024
 
