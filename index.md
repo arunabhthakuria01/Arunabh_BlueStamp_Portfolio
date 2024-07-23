@@ -220,6 +220,7 @@ void loop() {
 <span style="font-size:0.8em;">Figure 5. Wiring schematics of the camera and LEDs that are connected to the arduino MEGA.</span>
 
 # Project Resources and Help
+
 | **Name or Source** | **Description and Link** |
 |:--:|:--:|
 | Terry W. | <a href="https://www.linkedin.com/in/terry-wang-16b7bb177/"> Instructor </a> |
